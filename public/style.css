@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.quote-container{
+    height: 300px;
+    width: 100%;
+    border: black 2px dotted;
+}
+
+.navbar {
+    width: 100;
+    height: 100px;
+
+    /* padding: 20px; */
+
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #0A1939;
+
+
+
+
+
+}
+
+.navbar ul {
+    display: flex;
+
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 20px;
+    color: white;
+}
+
+
+
+
+
+.navbar img {
+    Width: 285px;
+    Height: 33.63px;
+
+}
+
+
+.navbar img:last-child {
+    height: 24px;
+    width: 24px;
+}
+
+
+
+.container1 {
+    background-color: #041334;
+    color: white;
+    padding: 80px;
+
+    /* height: 100vh; */
+    width: 100;
+
+
+    display: flex;
+    flex-direction: column;
+}
+
+.corr-flex {
+    display: flex;
+}
+
+.head-headin {
+    font-weight: 500px;
+    font-size: 40pxpx;
+    /* line-height: 36; */
+
+
+}
+
+.corr-flex p {
+
+    font-size: 20px;
+    font-weight: 350;
+    height: 30px;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+
+.btn {
+    background: linear-gradient(90deg, #3DD8EE 0%, #0997E8 100%);
+    height: 60px;
+    width: 200px;
+
+    border-radius: 8px;
+    color: white;
+
+    border: solid 1px blue;
+
+    font-size: 24px;
+    font-weight: 700;
+
+
+
+
+
+}
+
+.btn-back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100;
+    background-color: #041334;
+}
+
+.chart-heading {
+    padding-bottom: 65px;
+}
+
+.chart-format {
+
+    display: flex;
+    justify-content: space-between;
+    margin: 32px;
+}
+
+.chart-heading p {
+    font-weight: 700;
+    size: 20px;
+}
+
+.chart-names img {
+    height: 20px;
+    background-color: #041334;
+    color: #041334;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.chart-names {
+    display: flex;
+    justify-content: flex-start;
+    /* margin:32px; */
+
+}
+
+
+.container2 {
+    background-color: #041334;
+    width: 100;
+    height: 547;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+    padding: 52px 100px;
+}
+
+.container2>img {
+    height: 547px;
+    width: 764px;
+
+}
+
+.container2 .right-content h2 {
+    font-weight: 500;
+    size: 36px;
+    /* margin-bottom: 25px; */
+}
+
+.container2 .right-content p {
+    font-weight: 200;
+    size: 14px;
+    margin-bottom: 60px;
+}
+
+
+
+.information {
+    /* margin: 32px; */
+    display: flex;
+
+
+}
+
+.information h2 {
+    font-size: 18px;
+}
+
+.information img {
+    width: 30px;
+    transform: translateY(20px);
+    height: 20px;
+    margin-right: 27px;
+    box-sizing: border-box;
+
+}
+
+.platform-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container3 {
+    display: flex;
+    color: white;
+    height: 100vh;
+    padding: 20px;
+    background-color: #041334;
+    /* position: relative; */
+}
+
+
+.container3 .left-part {
+    flex-direction: column;
+    display: flex;
+}
+
+.left-align-context h2 {
+    font-weight: 600px;
+    font-size: 36px;
+    margin-bottom: 70px;
+
+}
+
+
+.reason-content {
+    display: flex;
+    margin-bottom: 50px;
+
+}
+
+.left-part {
+    width: 50vw;
+}
+
+.investcrypto-heading img {
+    margin-right: 15px;
+}
+
+.reason-align-content h3 {
+
+    font-size: 20px;
+    font-weight: 500;
+
+
+}
+
+.reason-align-content p {
+
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+
+
+
+.values {
+    /* display: flex; */
+    position: absolute;
+    /* width: 365px;
+    height: 600px;
+    left: 775px; */
+    /* top: -50px; */
+}
+
+.chart-wave {
+    position: relative;
+    width: 401px;
+    height: 334px;
+    left: 100px;
+    top: 100px;
+
+}
+
+
+
+footer {
+    height: 40vh;
+    /* width: 100vw; */
+    background-color: #00092A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 103px;
+    color: white;
+
+
+}
+
+
+.lef-part-footer img {
+    width: 310.97px;
+    height: 40px;
+}
+
+.left-part-footer {
+    width: 555px;
+}
+
+
+.last-section {
+    display: flex;
+    width: 55;
+}
+
+.right-part-footer {
+    width: 50vw;
+    display: flex;
+
+
+}
+
+.partx {
+    margin: 0 70px;
+}
+
+.partx ul {
+    list-style: none;
+}
+
+.partx h4 {
+    margin-bottom: 20px;
+
+    font-size: 24px;
+    font-weight: 400;
+
+
+}
+
+.partx ul li {
+
+
+    font-size: 12px;
+    font-weight: 100;
+
+
+    margin-bottom: 15px;
+}
+
+
+
+
+
+@media (max-width :1100px) {
+    .container2 .right-content {
+        display: none;
+    }
+
+
+    .right-part-footer {
+        display: none;
+    }
+
+    .chart-wave {
+        display: none;
+    }
+
+    .values {
+        /* position: absolute;
+
+        width: 365px;
+        height: 95vh;
+        left: 775px; */
+
+        width: auto;
+
+
+        display: block;
+        height: 87vh;
+        width: 39vw;
+        left: 50vw;
+
+    }
+
+    .last-section {
+        display: block;
+        /* width: 80vw; */
+    }
+
+    .footer {
+        /* width: 100vw; */
+        padding: 5vw;
+        height: 100vh;
+        background-color: #00092A;
+    }
+
+
+
+
+}
+
+
+.quoteText{
+    font-weight: 300;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
